@@ -13,11 +13,16 @@ sidebar_position: 1
 
 ## Территория
 
-| ![am_1](/img/am/am_1.png) | ![am_2](/img/am/am_2.png) |
-|:--------------------------:|:--------------------------:|
-| ![am_3](/img/am/am_3.png) | ![am_4](/img/am/am_4.png) |
-| ![am_5](/img/am/am_5.png) | ![am_6](/img/am/am_6.png) |
-| ![am_7](/img/am/am_7.png) | ![am_8](/img/am/am_8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/am/am_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/am/am_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Клуб 
 
@@ -25,9 +30,11 @@ sidebar_position: 1
 
 <!--- Добавить кликабельную ссылку на клуб Comedy --->
 
-| ![comedy_1](/img/am/comedy_1.png) | ![comedy_2](/img/am/comedy_2.png) |
-|:---------------------------------:|:---------------------------------:|
-| ![comedy_3](/img/am/comedy_3.png) | 
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/am/comedy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/am/comedy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/am/comedy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
 
 
 
@@ -37,19 +44,6 @@ sidebar_position: 1
 Ниже приведены примеры стандартного транспорта фракции.
 
 alpha dubsta2 felon cheburek windsor2 burrito3
-
-## Вооружение
-
-Тяжелый пистолет
-Micro SMG
-Пистолет
-SMG MK2
-Assault Riffle
-Compact Riffle
-Револьвер
-Gusenberg Sweeper
-Pump Shotgun
-Коктейль молотова 
 
 ## Должности
 

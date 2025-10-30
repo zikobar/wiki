@@ -8,11 +8,16 @@ Marabunta Grande (MG-13) — хорошо организованная межд�
 
 ## Территория
 
-| ![mara1](/img/mara/mara1.png) | ![mara2](/img/mara/mara2.png) |
-|:-----------------------------:|:-----------------------------:|
-| ![mara3](/img/mara/mara3.png) | ![mara4](/img/mara/mara4.png) |
-| ![mara5](/img/mara/mara5.png) | ![mara6](/img/mara/mara6.png) |
-| ![mara7](/img/mara/mara7.png) | ![mara8](/img/mara/mara8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/mara/mara1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mara/mara8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Транспорт
 

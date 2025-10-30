@@ -13,23 +13,27 @@ sidebar_position: 3
 
 ## Территория
 
-| ![mm_1](/img/mm/mm_1.png) | ![mm_2](/img/mm/mm_2.png) |
-|:------------------------:|:------------------------:|
-| ![mm_3](/img/mm/mm_3.png) | ![mm_4](/img/mm/mm_4.png) |
-| ![mm_5](/img/mm/mm_5.png) | ![mm_6](/img/mm/mm_6.png) |
-| ![mm_7](/img/mm/mm_7.png) | ![mm_8](/img/mm/mm_8.png) |
-
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/mm/mm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/mm/mm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 ## Клуб
 
 Мексиканская мафия установила контроль над ночным клубом Galaxy, превратив его в витрину своей империи. За яркими огнями и громкой музыкой скрываются тайные сделки, отмыв денег и встречи влиятельных криминальных фигур. Каждый, кто ступает в Galaxy, знает — этот клуб живёт по законам мафии.
 
 <!--- Добавить кликабельную ссылку на клуб Galaxy --->
 
-| ![galaxy_1](/img/mm/galaxy_1.png) | ![galaxy_2](/img/mm/galaxy_2.png) |
-|:---------------------------------:|:---------------------------------:|
-| ![galaxy_3](/img/mm/galaxy_3.png) | ![galaxy_4](/img/mm/galaxy_4.png) |
-| ![galaxy_5](/img/mm/galaxy_5.png) | ![galaxy_6](/img/mm/galaxy_6.png) |
-|             ![galaxy_7](/img/mm/galaxy_7.png)              |                                     |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/mm/galaxy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/mm/galaxy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/mm/galaxy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
 
 
 ## Транспорт
@@ -38,19 +42,6 @@ sidebar_position: 3
 Ниже приведены примеры стандартного транспорта фракции.
 
 peyote baller4 fugitive primo2 fq2 zion burrito3
-
-## Вооружение
-
-Тяжелый пистолет
-Micro SMG
-Пистолет
-SMG MK2
-Assault Riffle
-Compact Riffle
-Револьвер
-Gusenberg Sweeper
-Pump Shotgun
-Коктейль молотова 
 
 ## Должности
 

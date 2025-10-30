@@ -11,11 +11,16 @@ sidebar_position: 2
 
 ## Территория
 
-| ![lcn_1](/img/lcn/lcn_1.png) | ![lcn_2](/img/lcn/lcn_2.png) |
-|:------------------------:|:------------------------:|
-| ![lcn_3](/img/lcn/lcn_3.png) | ![lcn_4](/img/lcn/lcn_4.png) |
-| ![lcn_5](/img/lcn/lcn_5.png) | ![lcn_6](/img/lcn/lcn_6.png) |
-| ![lcn_7](/img/lcn/lcn_7.png) | ![lcn_8](/img/lcn/lcn_8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/lcn/lcn_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/lcn/lcn_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Клуб 
 
@@ -23,9 +28,11 @@ sidebar_position: 2
 
 <!--- Добавить кликабельную ссылку на клуб Bahama Mamas --->
 
-| ![bahama_mamas_1](/img/lcn/bahama_mamas_1.png) | ![bahama_mamas_2](/img/lcn/bahama_mamas_2.png) |
-|:----------------------------------------------:|:----------------------------------------------:|
-| ![bahama_mamas_3](/img/lcn/bahama_mamas_3.png) | 
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/lcn/bahama_mamas_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/lcn/bahama_mamas_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/lcn/bahama_mamas_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
 
 
 
@@ -35,19 +42,6 @@ sidebar_position: 2
 Ниже приведены примеры стандартного транспорта фракции.
 
 pigalle baller3 oracle dynasty stafford burrito3
-
-## Вооружение
-
-Тяжелый пистолет
-Micro SMG
-Пистолет
-SMG MK2
-Assault Riffle
-Compact Riffle
-Револьвер
-Gusenberg Sweeper
-Pump Shotgun
-Коктейль молотова 
 
 ## Должности
 

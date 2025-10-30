@@ -11,11 +11,16 @@ sidebar_position: 5
 
 ## Территория
 
-| ![yak_1](/img/yak/yak_1.png) | ![yak_2](/img/yak/yak_2.png) |
-|:-----------------------------:|:-----------------------------:|
-| ![yak_3](/img/yak/yak_3.png) | ![yak_4](/img/yak/yak_4.png) |
-| ![yak_5](/img/yak/yak_5.png) | ![yak_6](/img/yak/yak_6.png) |
-| ![yak_7](/img/yak/yak_7.png) | ![yak_8](/img/yak/yak_8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/yak/yak_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/yak/yak_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Клуб
 
@@ -23,11 +28,11 @@ sidebar_position: 5
 
 <!--- Добавить кликабельную ссылку на клуб Galaxy --->
 
-| ![oriental_1](/img/yak/oriental_1.png) | ![oriental_2](/img/yak/oriental_2.png) |
-|:--------------------------------------:|:--------------------------------------:|
-| ![oriental_3](/img/yak/oriental_3.png) | ![oriental_4](/img/yak/oriental_4.png) |
-| ![oriental_5](/img/yak/oriental_5.png) | ![oriental_6](/img/yak/oriental_6.png) |
-| ![oriental_7](/img/yak/oriental_7.png) | 
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
 
 ## Транспорт
 
@@ -35,19 +40,6 @@ sidebar_position: 5
 Ниже приведены примеры стандартного транспорта фракции.
 
 exemplar baller4 felon fugitive kuruma cognoscenti burrito3
-
-## Вооружение
-
-Тяжелый пистолет
-Micro SMG
-Пистолет
-SMG MK2
-Assault Riffle
-Compact Riffle
-Револьвер
-Gusenberg Sweeper
-Pump Shotgun
-Коктейль молотова 
 
 ## Должности
 

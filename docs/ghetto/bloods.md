@@ -8,11 +8,16 @@ Bloods Street Gang — Альянс афроамериканских уличн�
 
 ## Территория
 
-| ![bloods1](/img/bloods/bloods1.png) | ![bloods2](/img/bloods/bloods2.png) |
-|:----------------------------------:|:----------------------------------:|
-| ![bloods3](/img/bloods/bloods3.png) | ![bloods4](/img/bloods/bloods4.png) |
-| ![bloods5](/img/bloods/bloods5.png) | ![bloods6](/img/bloods/bloods6.png) |
-| ![bloods7](/img/bloods/bloods7.png) | ![bloods8](/img/bloods/bloods8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/bloods/bloods1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Транспорт
 

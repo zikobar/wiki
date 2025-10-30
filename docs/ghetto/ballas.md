@@ -8,11 +8,16 @@ The Ballas Gang — афроамериканская преступная гру
 
 ## Территория
 
-| ![ballas1](/img/ballas/ballas1.png) | ![ballas2](/img/ballas/ballas2.png) |
-|:----------------------------------:|:----------------------------------:|
-| ![ballas3](/img/ballas/ballas3.png) | ![ballas4](/img/ballas/ballas4.png) |
-| ![ballas5](/img/ballas/ballas5.png) | ![ballas6](/img/ballas/ballas6.png) |
-| ![ballas7](/img/ballas/ballas7.png) | ![ballas8](/img/ballas/ballas8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/ballas/ballas1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ballas/ballas8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Транспорт
 

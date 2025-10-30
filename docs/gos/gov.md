@@ -9,16 +9,23 @@ sidebar_position: 1
 ## Территория
 ### Мэрия ЛС
 
-| ![gov1](/img/gov/gov1.png) | ![gov2](/img/gov/gov2.png) |
-|:---------------------------:|:---------------------------:|
-| ![gov3](/img/gov/gov3.png) | ![gov4](/img/gov/gov4.png) |
-| ![gov5](/img/gov/gov5.png) | ![gov6](/img/gov/gov6.png) |
-|             ![gov7](/img/gov/gov7.png)              |                             |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/gov/gov1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>          
 
 ### Мэрия ОБ
-| ![gov_ob1](/img/gov/gov_ob1.png) | ![gov_ob2](/img/gov/gov_ob2.png) |
-|:--------------------------------:|:--------------------------------:|
-| ![gov_ob3](/img/gov/gov_ob3.png) | ![gov_ob4](/img/gov/gov_ob4.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/gov/gov_ob1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov_ob2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov_ob3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/gov/gov_ob4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>     
 
 ## Транспорт
 

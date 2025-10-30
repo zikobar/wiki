@@ -8,11 +8,16 @@ Los Santos Vagos — Банда родом из Мексики. Считаетс
 
 ## Территория
 
-| ![vagos1](/img/vagos/vagos1.png) | ![vagos2](/img/vagos/vagos2.png) |
-|:--------------------------------:|:--------------------------------:|
-| ![vagos3](/img/vagos/vagos3.png) | ![vagos4](/img/vagos/vagos4.png) |
-| ![vagos5](/img/vagos/vagos5.png) | ![vagos6](/img/vagos/vagos6.png) |
-| ![vagos7](/img/vagos/vagos7.png) | ![vagos8](/img/vagos/vagos8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/vagos/vagos1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/vagos/vagos8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Транспорт
 

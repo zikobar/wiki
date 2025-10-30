@@ -8,11 +8,16 @@ The Families — афроамериканская банда города Лос
 
 ## Территория
 
-| ![fam1](/img/fam/fam1.png) | ![fam2](/img/fam/fam2.png) |
-|:---------------------------:|:---------------------------:|
-| ![fam3](/img/fam/fam3.png) | ![fam4](/img/fam/fam4.png) |
-| ![fam5](/img/fam/fam5.png) | ![fam6](/img/fam/fam6.png) |
-| ![fam7](/img/fam/fam7.png) | ![fam8](/img/fam/fam8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/fam/fam1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/fam/fam8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Транспорт
 

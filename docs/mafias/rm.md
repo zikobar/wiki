@@ -11,11 +11,16 @@ sidebar_position: 4
 
 ## Территория
 
-| ![rm_1](/img/rm/rm_1.png) | ![rm_2](/img/rm/rm_2.png) |
-|:--------------------------:|:--------------------------:|
-| ![rm_3](/img/rm/rm_3.png) | ![rm_4](/img/rm/rm_4.png) |
-| ![rm_5](/img/rm/rm_5.png) | ![rm_6](/img/rm/rm_6.png) |
-| ![rm_7](/img/rm/rm_7.png) | ![rm_8](/img/rm/rm_8.png) |
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/rm/rm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/rm/rm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
 
 ## Клуб
 
@@ -23,13 +28,11 @@ sidebar_position: 4
 
 <!--- Добавить кликабельную ссылку на клуб Vanilla --->
 
-| ![vanilla_1](/img/rm/vanilla_1.png) | ![vanilla_2](/img/rm/vanilla_2.png) |
-|:------------------------------------:|:------------------------------------:|
-| ![vanilla_3](/img/rm/vanilla_3.png) | ![vanilla_4](/img/rm/vanilla_4.png) |
-| ![vanilla_5](/img/rm/vanilla_5.png) | ![vanilla_6](/img/rm/vanilla_6.png) |
-| ![vanilla_7](/img/rm/vanilla_7.png) |
-
-
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <img src="/img/rm/vanilla_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/rm/vanilla_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/rm/vanilla_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
 
 ## Транспорт
 
@@ -37,19 +40,6 @@ sidebar_position: 4
 Ниже приведены примеры стандартного транспорта фракции.
 
 schwarzer dubsta2 schafter2 cheburek superd burrito3
-
-## Вооружение
-
-Тяжелый пистолет
-Micro SMG
-Пистолет
-SMG MK2
-Assault Riffle
-Compact Riffle
-Револьвер
-Gusenberg Sweeper
-Pump Shotgun
-Коктейль молотова 
 
 ## Должности
 

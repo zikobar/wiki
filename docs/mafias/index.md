@@ -2,6 +2,8 @@
 title: Мафии
 ---
 
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Мафии
 
 Мафии — это теневая элита преступного мира штата. Они контролируют бизнес, клубы, поставки из-под тишка, решая вопросы не улицами, а связями и деньгами.
@@ -31,7 +33,7 @@ Pump Shotgun
 ## Функционал
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/mafias.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/mafias.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 | Функция | Описание |
@@ -55,8 +57,8 @@ Pump Shotgun
 Во вкладке "история" доступна история всех бизваров мафий с результатами за текущий день. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/bizwar1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/bizwar2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} /> 
+  <LightboxImage src="/img/mafias/bizwar1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/bizwar2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} /> 
 </div>
 
 >
@@ -70,8 +72,8 @@ Pump Shotgun
 Все выпавшее оружие, патроны будут автоматически перемещены на склад выигравшей фракции по окончанию мероприятия. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/bizwar3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/bizwar4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/bizwar3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/bizwar4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Контроль над казино
@@ -83,8 +85,8 @@ Pump Shotgun
 >Для обоих нижепредставленных возможностей необходимо переодеться в раздевалке казино. Для всех участников мафии будет доступно 2 варианта - официант и охранник. 
  
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/Ccasino1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/Ccasino2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/Ccasino1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/Ccasino2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
  
 > ### Продажа алкоголя
@@ -96,10 +98,10 @@ Pump Shotgun
 Из этих 150$ официант получит 60$, также 60$ будут зачислены на счёт фракции. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/alko1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/alko2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/alko3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/alko4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/alko1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/alko2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/alko3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/alko4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 > ### Охрана
@@ -107,7 +109,7 @@ Pump Shotgun
 Функционально члены мафии могут осуществлять охранные функции с помощью стяжек продающихся на черном рынке. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/ohrana.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/ohrana.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Контрабанда
@@ -118,12 +120,12 @@ Pump Shotgun
 > Получить контрабанду можно у NPC на титульном районе своей организации.
 Брать контрабанду можно только 1 раз в 4 минуты. 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/npc.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/npc1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/npc2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/npc3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/npc4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/npc5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/npc5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 > ### Принцип продажи контрабанды
@@ -131,8 +133,8 @@ Pump Shotgun
 При продаже на счет фракции будет зачислено 10% от суммы полученной за продажу контрабанды игроком. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/parcelmap.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/parcelnpc.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/parcelmap.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/parcelnpc.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Ночные клубы
@@ -142,9 +144,9 @@ Pump Shotgun
 ### Клубы
 #### Vanilla Unicorn - Русская Мафия
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/rm/vanilla_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/rm/vanilla_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/rm/vanilla_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -157,9 +159,9 @@ Pump Shotgun
 
 #### Bahama Mama's West - Итальянская Мафия
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/lcn/bahama_mamas_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/lcn/bahama_mamas_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/lcn/bahama_mamas_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -173,9 +175,9 @@ Pump Shotgun
 
 #### Comedy Club - Армянская Мафия
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/am/comedy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/am/comedy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/am/comedy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -188,9 +190,9 @@ Pump Shotgun
 
 #### Oriental - Японская Мафия
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -204,9 +206,9 @@ Pump Shotgun
 
 #### Galaxy - Мексиканская Мафия
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mm/galaxy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/mm/galaxy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/mm/galaxy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/mm/galaxy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <iLightboxImagemg src="/img/mm/galaxy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/mm/galaxy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -220,9 +222,9 @@ Pump Shotgun
 
 #### Cayo Perico - Неофициальные организации
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/cayoperico1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/cayoperico2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/cayoperico3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/cayoperico1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/cayoperico2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/cayoperico3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 Ассортимент алкоголя
@@ -241,7 +243,7 @@ Pump Shotgun
 >Доступно только лидеру фракции.
 Строчка “Баланс” отражает нынешний баланс фракции. Товары для клуба(алкоголь) поставляются дальнобойщиками. 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/uclub.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/uclub.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 >Dance Battle
@@ -271,9 +273,9 @@ Pump Shotgun
 Чтобы начать вести за собой проститутку, необходимо подойти к ней и нажать на кнопку G. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mafias/prostitute1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/prostitute2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mafias/prostitute4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/prostitute1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/prostitute2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mafias/prostitute4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 > ### Гос. структуры

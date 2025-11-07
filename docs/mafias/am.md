@@ -2,6 +2,9 @@
 title: Армянская мафия
 sidebar_position: 1
 ---
+
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Армянская мафия
 
 
@@ -14,14 +17,14 @@ sidebar_position: 1
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/am/am_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/am/am_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/am/am_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Клуб 
@@ -31,9 +34,9 @@ sidebar_position: 1
 <!--- Добавить кликабельную ссылку на клуб Comedy --->
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/am/comedy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/am/comedy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/am/comedy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/am/comedy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 

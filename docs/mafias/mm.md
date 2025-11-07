@@ -3,6 +3,8 @@ title: Мексиканская мафия
 sidebar_position: 3
 ---
 
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Мексиканская мафия
 
 С первых шагов основой «банды» были несколько мексиканских американцев из Восточного Лос-Анджелеса. Тринадцать бандитов, заложивших основу, называли себя El diablo, что в переводе с науатльского языка означает "Дьявол". Первым боссом стал Сергио. Её главной целью была защита своих членов от других заключенных, равно как и от охранников. Тюрьму Дьюэл считали «университетом» для заключенных, где они могли развивать свои навыки в драках, наркобизнесе и владении холодным оружием. Сергио принялся вербовать самых жестоких заключенных для того, чтобы заложить основу для новой группировки, способной захватить контроль над «черным рынком» тюрьмы и составить конкуренцию другим. 
@@ -14,14 +16,14 @@ sidebar_position: 3
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mm/mm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/mm/mm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/mm/mm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 ## Клуб
 
@@ -30,9 +32,9 @@ sidebar_position: 3
 <!--- Добавить кликабельную ссылку на клуб Galaxy --->
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/mm/galaxy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/mm/galaxy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/mm/galaxy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/mm/galaxy_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/mm/galaxy_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/mm/galaxy_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 

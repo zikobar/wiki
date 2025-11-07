@@ -1,40 +1,38 @@
-import type {ReactNode} from 'react';
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
-import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import React, { ReactNode } from 'react';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
-
+import HeroCarousel from '../components/HeroCarousel';
 import styles from './index.module.css';
 
+const slidesObj = {
+  mystic: {
+    src: '/img/updates/update_test1.jpg',
+    title: 'Мистические Каникулы',
+    href: '/docs/gos',
+  },
+  skills: {
+    src: '/img/updates/update_test2.png',
+    title: 'Фракционные навыки',
+    href: '/docs/mafias',
+  },
+  internet: {
+    src: '/img/updates/update_test3.jpg',
+    title: 'Интернет',
+    href: '/docs/ghetto',
+  },
+};
+
 function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro">
-            Docusaurus Tutorial - 5min ⏱️
-          </Link>
-        </div>
-      </div>
+    <header className={styles.heroNoBg}>
+      <HeroCarousel slidesObj={slidesObj} interval={5000} maxWidth={1100} />
     </header>
   );
 }
 
 export default function Home(): ReactNode {
-  const {siteConfig} = useDocusaurusContext();
   return (
-    <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+    <Layout title="GTA5RP Wiki" description="Официальная вики по функционалу GTA5RP">
       <HomepageHeader />
       <main>
         <HomepageFeatures />

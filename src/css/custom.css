@@ -28,3 +28,27 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+/* Гарантированно применяем переменную фона прямо на корневой ноде виджета */
+[data-rmiz] {
+  --rmiz-overlay-background-color: rgba(0, 0, 0, 0.85);
+}
+
+/* Если вдруг переменная игнорится — подстрахуемся фоном на самом оверлее */
+[data-rmiz] .rmiz__overlay {
+  background: rgba(0, 0, 0, 0.85) !important;
+}
+
+/* Ограничиваем размер увеличенного изображения */
+[data-rmiz] .rmiz__zoomed-img {
+  max-width: min(90vw, 1400px) !important;
+  max-height: 90vh !important;
+  object-fit: contain !important;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* (опционально) Сделаем иконку/кнопки светлыми на тёмном фоне */
+[data-rmiz] .rmiz__btn {
+  color: #fff !important;
+}
+

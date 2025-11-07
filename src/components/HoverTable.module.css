@@ -1,0 +1,106 @@
+/* ====== Рамка-обёртка ====== */
+.wrap {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: clip;                 /* без горизонтального скролла */
+  overflow-y: visible;
+
+  --table-bg: var(--ifm-background-color, #1b1f26);
+  --table-bg-header: var(--ifm-background-surface-color, #222831);
+
+  /* «серые» подсветки на основе текущего фона: мягко светлее */
+  --hover-row:  color-mix(in srgb, var(--table-bg) 90%, white 10%);
+  --hover-col:  color-mix(in srgb, var(--table-bg) 85%, white 15%);
+  --hover-cell: color-mix(in srgb, var(--table-bg) 80%, white 20%);
+  --hover-x:    color-mix(in srgb, var(--table-bg) 75%, white 25%);
+
+  background: var(--table-bg);
+  border-radius: 10px;
+  outline: 1px solid rgba(255,255,255,.08);  /* outline не влияет на размеры */
+  box-sizing: border-box;
+}
+.wrap * { box-sizing: border-box; }
+
+/* ====== Таблица ====== */
+.table {
+  display: table;
+  width: 100%;
+  max-width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;  /* чтобы не распухала ширина */
+  border-spacing: 0;
+  background: var(--table-bg);
+  border: 0;
+  color: #f5f5f5;
+  font-size: 14px;
+}
+
+/* Базовые ячейки */
+.table th,
+.table td {
+  padding: 10px 12px;
+  text-align: right;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+  border-right: 1px solid rgba(255,255,255,.04);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  background: var(--table-bg);
+  transition: background 120ms ease;
+}
+.table th:last-child,
+.table td:last-child { border-right: 0; }
+
+/* Первая колонка — текст влево и можно переносить строки */
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+  white-space: normal;
+  line-height: 1.25;
+}
+
+/* Шапка (переносим текст, чтобы всё влезало) */
+.table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: var(--table-bg-header) !important;
+  font-weight: 700;
+
+  white-space: normal;      /* разрешаем перенос */
+  overflow: visible;        /* не обрезаем */
+  text-overflow: initial;   /* без троеточий */
+  line-height: 1.15;        /* компактнее */
+}
+
+/* Сброс «зебры» темы */
+.table tbody tr:nth-child(odd),
+.table tbody tr:nth-child(even) {
+  background: transparent !important;
+}
+.table tbody tr:nth-child(odd)  td,
+.table tbody tr:nth-child(even) td {
+  background: var(--table-bg) !important;
+}
+
+/* ===== Подсветка — мягкие серые оттенки ===== */
+.table tbody tr td.colActive,
+.table thead tr th.colActive { background: var(--hover-col) !important; }
+
+.table tbody tr.rowActive > td { background: var(--hover-row) !important; }
+
+.table tbody tr.rowActive > td.rowActiveCell { background: var(--hover-cell) !important; }
+
+.table tbody tr.rowActive > td.colActive,
+.table tbody tr.rowActive > td.rowActiveCell.colActive {
+  background: var(--hover-x) !important;
+}
+
+/* Скругления углов */
+.table thead tr th:first-child { border-top-left-radius: 10px; }
+.table thead tr th:last-child  { border-top-right-radius: 10px; }
+.table tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+.table tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+
+/* Компактный режим (если нужен) */
+.dense th, .dense td { padding: 6px 8px; font-size: 13px; }

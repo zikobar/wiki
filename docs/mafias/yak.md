@@ -3,6 +3,8 @@ title: Японская мафия
 sidebar_position: 5
 ---
 
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Японская мафия
 
 Яку́дза - традиционная форма организованной преступности в Японии, группировки которой занимают лидирующее положение в криминальном мире страны. Якудза контролируют каналы поставки наркотиков, местами активности якудза в Америке являются японские кварталы в таких городах как Лос-Сантос и Либерти-Сити. 
@@ -12,14 +14,14 @@ sidebar_position: 5
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/yak/yak_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/yak/yak_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Клуб
@@ -29,9 +31,9 @@ sidebar_position: 5
 <!--- Добавить кликабельную ссылку на клуб Galaxy --->
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 ## Транспорт

@@ -1,0 +1,71 @@
+.wrap {
+  /* можно оставить — на совсем узких экранах спасёт */
+  overflow-x: auto;
+}
+
+.table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: #0f131a; /* тёмный фон под dark-тему */
+  border: 1px solid rgba(255,255,255,.08);
+  border-radius: 10px;
+  table-layout: auto;            /* пусть ширины подстраиваются */
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  padding: 10px 12px;
+  text-align: right;
+  border-bottom: 1px solid rgba(255,255,255,.06);
+}
+
+/* Первая колонка — названия рангов */
+.table th:first-child,
+.table td:first-child {
+  text-align: left;
+  white-space: normal;           /* разрешаем переносы */
+  line-height: 1.25;
+  max-width: 380px;              /* чтобы не растягивала всю таблицу */
+}
+
+/* Остальные колонки — числа, без переноса */
+.table th:not(:first-child),
+.table td:not(:first-child) {
+  white-space: nowrap;
+}
+
+.table thead th {
+  position: sticky;
+  top: 0;
+  background: rgba(255,255,255,.04);
+  font-weight: 700;
+}
+
+/* Компактный режим */
+.dense th, .dense td {
+  padding: 6px 8px;
+  font-size: 13px;
+}
+
+/* Подсветка столбца */
+.colActive {
+  background: rgba(255,255,255,.05);
+}
+
+/* Подсветка строки */
+.rowActive {
+  background: rgba(255,255,255,.04);
+}
+
+/* Ячейка активной строки — чуть ярче */
+.rowActiveCell {
+  background: rgba(255,255,255,.05);
+}
+
+/* Скругления */
+.table thead tr th:first-child { border-top-left-radius: 10px; }
+.table thead tr th:last-child  { border-top-right-radius: 10px; }
+.table tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+.table tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }

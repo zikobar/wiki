@@ -3,6 +3,8 @@ title: Русская мафия
 sidebar_position: 4
 ---
 
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Русская мафия
 
 У всем известной «Русской мафии» за океаном, сложился образ неимоверно сильной и могущественной криминальной структуры. Возможно, в 80 – е и 90 – е года Русские парни наводили страх на жителей Америки, но время меняет многое. Именно сначала 90 – х, в полосах газет США писалось о «подвигах» Русской мафии, а так называемый «пахан», выпивающий с утра не менее пузыря водки и расстреливающий всё подряд, как своих шестёрок, так и чужих для себя людей, стал непременным атрибутом дешёвых американских боевиков. Первые представители группировки, которую в будущем нарекут «Русской мафией» высадили свой десант на берега восточного побережья в середине 1974 года. Именно тогда конгрессмены Соединенных Штатов приняли закон, покровительствующий политическим эмигрантом из Страны Советов. 
@@ -12,14 +14,14 @@ sidebar_position: 4
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/rm/rm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/rm/rm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/rm/rm_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Клуб
@@ -29,9 +31,9 @@ sidebar_position: 4
 <!--- Добавить кликабельную ссылку на клуб Vanilla --->
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/rm/vanilla_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/rm/vanilla_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/rm/vanilla_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/rm/vanilla_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 ## Транспорт

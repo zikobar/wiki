@@ -2,6 +2,9 @@
 title: Итальянская мафия
 sidebar_position: 2
 ---
+
+import LightboxImage from '@site/src/components/LightboxImage';
+
 # Итальянская мафия
 
 
@@ -12,14 +15,14 @@ sidebar_position: 2
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/lcn/lcn_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
-  <img src="/img/lcn/lcn_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/lcn/lcn_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
 </div>
 
 ## Клуб 
@@ -29,9 +32,9 @@ sidebar_position: 2
 <!--- Добавить кликабельную ссылку на клуб Bahama Mamas --->
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
-  <img src="/img/lcn/bahama_mamas_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/lcn/bahama_mamas_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
-  <img src="/img/lcn/bahama_mamas_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/lcn/bahama_mamas_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
 </div>
 
 

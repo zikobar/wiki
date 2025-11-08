@@ -51,4 +51,8 @@
 [data-rmiz] .rmiz__btn {
   color: #fff !important;
 }
+/* всегда резервируем место под скроллбар */
+html {
+  scrollbar-gutter: stable both-edges;
+}
 

@@ -1,71 +1,77 @@
-.wrap {
-  /* можно оставить — на совсем узких экранах спасёт */
-  overflow-x: auto;
-}
-
-.table {
+/* Все классы начинаются с hc… — никаких глобальных селекторов */
+.hc {
+  position: relative;
   width: 100%;
-  border-collapse: separate;
-  border-spacing: 0;
-  background: #0f131a; /* тёмный фон под dark-тему */
-  border: 1px solid rgba(255,255,255,.08);
+  max-width: 1200px;
+  margin: 0 auto 24px;
+  overflow: hidden;
+  border-radius: 12px;
+  background: var(--ifm-background-color);
+  box-shadow: 0 6px 24px rgba(0,0,0,.25);
+}
+
+.hcTrack {
+  display: flex;
+  height: 100%;
+  transition: transform .5s cubic-bezier(.2,.8,.2,1);
+  will-change: transform;
+}
+
+.hcSlide {
+  flex: 0 0 100%;
+  position: relative;
+  height: 100%;
+}
+
+.hcImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.hcLink {
+  position: absolute;
+  inset: 0;
+}
+
+/* Навигация */
+.hcNav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 48px;
+  border: 0;
   border-radius: 10px;
-  table-layout: auto;            /* пусть ширины подстраиваются */
-  font-size: 14px;
+  background: rgba(0,0,0,.35);
+  color: #fff;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .2s ease;
+  z-index: 2;
 }
+.hcNav:hover { background: rgba(0,0,0,.55); }
+.hcPrev { left: 10px; }
+.hcNext { right: 10px; }
 
-.table th,
-.table td {
-  padding: 10px 12px;
-  text-align: right;
-  border-bottom: 1px solid rgba(255,255,255,.06);
+/* Точки */
+.hcDotBar {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+  z-index: 2;
 }
-
-/* Первая колонка — названия рангов */
-.table th:first-child,
-.table td:first-child {
-  text-align: left;
-  white-space: normal;           /* разрешаем переносы */
-  line-height: 1.25;
-  max-width: 380px;              /* чтобы не растягивала всю таблицу */
+.hcDot {
+  width: 8px; height: 8px; border-radius: 50%;
+  border: 0; cursor: pointer;
+  background: rgba(255,255,255,.45);
+  transition: transform .2s ease, background .2s ease;
 }
-
-/* Остальные колонки — числа, без переноса */
-.table th:not(:first-child),
-.table td:not(:first-child) {
-  white-space: nowrap;
-}
-
-.table thead th {
-  position: sticky;
-  top: 0;
-  background: rgba(255,255,255,.04);
-  font-weight: 700;
-}
-
-/* Компактный режим */
-.dense th, .dense td {
-  padding: 6px 8px;
-  font-size: 13px;
-}
-
-/* Подсветка столбца */
-.colActive {
-  background: rgba(255,255,255,.05);
-}
-
-/* Подсветка строки */
-.rowActive {
-  background: rgba(255,255,255,.04);
-}
-
-/* Ячейка активной строки — чуть ярче */
-.rowActiveCell {
-  background: rgba(255,255,255,.05);
-}
-
-/* Скругления */
-.table thead tr th:first-child { border-top-left-radius: 10px; }
-.table thead tr th:last-child  { border-top-right-radius: 10px; }
-.table tbody tr:last-child td:first-child { border-bottom-left-radius: 10px; }
-.table tbody tr:last-child td:last-child  { border-bottom-right-radius: 10px; }
+.hcDot:hover { transform: scale(1.1); }
+.hcDotActive { background: rgba(255,255,255,.95); }

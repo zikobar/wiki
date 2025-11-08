@@ -1,85 +1,80 @@
-import React, { useEffect, useState } from 'react';
-import Link from '@docusaurus/Link';
+import React, {useEffect, useRef, useState} from 'react';
 import styles from './HeroCarousel.module.css';
 
-export interface Slide {
-  src: string;
-  title: string;
-  href: string;
-}
+export type Slide = { src: string; href?: string; alt?: string };
 
-interface Props {
-  slidesObj: Record<string, Slide>;
-  interval?: number;
-  maxWidth?: number;
-}
+type Props = {
+  slides: Slide[];
+  autoPlayMs?: number;     // авто-пролистыватель (0 — отключить)
+  aspectRatio?: `${number}/${number}`; // по умолчанию 16/9
+};
 
-const HeroCarousel: React.FC<Props> = ({ slidesObj, interval = 5000, maxWidth = 1100 }) => {
-  const slides = Object.values(slidesObj);
-  const [current, setCurrent] = useState(0);
+export default function HeroCarousel({
+  slides,
+  autoPlayMs = 4500,
+  aspectRatio = '16/9',
+}: Props) {
+  const [index, setIndex] = useState(0);
+  const timerRef = useRef<number | null>(null);
+  const total = slides.length;
+
+  const go = (i: number) => setIndex((prev) => (i + total) % total);
+  const next = () => go(index + 1);
+  const prev = () => go(index - 1);
+
+  // autoplay
+  const stop = () => {
+    if (timerRef.current) window.clearInterval(timerRef.current);
+    timerRef.current = null;
+  };
+  const start = () => {
+    if (autoPlayMs > 0 && !timerRef.current) {
+      timerRef.current = window.setInterval(next, autoPlayMs);
+    }
+  };
 
   useEffect(() => {
-    if (slides.length <= 1) return;
-    const t = setInterval(() => {
-      setCurrent((i) => (i + 1) % slides.length);
-    }, interval);
-    return () => clearInterval(t);
-  }, [slides, interval]);
-
-  const go = (dir: 1 | -1) => setCurrent((i) => (i + dir + slides.length) % slides.length);
+    start();
+    return stop;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [index, autoPlayMs, total]);
 
   return (
-    <div className={styles.carousel} style={{ maxWidth }}>
-      <div className={styles.carouselInner}>
+    <div
+      className={styles.hc}
+      style={{aspectRatio}}
+      onMouseEnter={stop}
+      onMouseLeave={start}
+    >
+      <div
+        className={styles.hcTrack}
+        style={{transform: `translateX(-${index * 100}%)`}}
+      >
         {slides.map((s, i) => (
-          <div
-            key={i}
-            className={`${styles.carouselItem} ${i === current ? styles.active : ''}`}
-          >
-            <Link to={s.href} className={styles.slideLink} aria-label={s.title}>
-              <div className={styles.carouselImageWrapper}>
-                <img className={styles.image} src={s.src} alt={s.title} />
-                {/* убрали подпись под картинкой */}
-              </div>
-            </Link>
+          <div className={styles.hcSlide} key={i}>
+            <img className={styles.hcImg} src={s.src} alt={s.alt ?? ''} />
+            {s.href && <a className={styles.hcLink} href={s.href} />}
           </div>
         ))}
       </div>
 
-      {slides.length > 1 && (
-        <>
-          <button
-            className={`${styles.navButton} ${styles.prev}`}
-            onClick={() => go(-1)}
-            aria-label="Previous slide"
-            type="button"
-          >
-            ‹
-          </button>
-          <button
-            className={`${styles.navButton} ${styles.next}`}
-            onClick={() => go(1)}
-            aria-label="Next slide"
-            type="button"
-          >
-            ›
-          </button>
+      <button className={`${styles.hcNav} ${styles.hcPrev}`} onClick={prev} aria-label="Предыдущий">
+        ‹
+      </button>
+      <button className={`${styles.hcNav} ${styles.hcNext}`} onClick={next} aria-label="Следующий">
+        ›
+      </button>
 
-          <div className={styles.dots}>
-            {slides.map((_, i) => (
-              <button
-                key={i}
-                className={`${styles.dot} ${i === current ? styles.activeDot : ''}`}
-                onClick={() => setCurrent(i)}
-                aria-label={`Go to slide ${i + 1}`}
-                type="button"
-              />
-            ))}
-          </div>
-        </>
-      )}
+      <div className={styles.hcDotBar}>
+        {slides.map((_, i) => (
+          <button
+            key={i}
+            className={`${styles.hcDot} ${i === index ? styles.hcDotActive : ''}`}
+            aria-label={`Слайд ${i + 1}`}
+            onClick={() => go(i)}
+          />
+        ))}
+      </div>
     </div>
   );
-};
-
-export default HeroCarousel;
+}

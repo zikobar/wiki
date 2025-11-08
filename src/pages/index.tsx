@@ -1,31 +1,20 @@
-import React, { ReactNode } from 'react';
+import React, { type ReactNode } from 'react';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import HeroCarousel from '../components/HeroCarousel';
+import HeroCarousel from '@site/src/components/HeroCarousel';
 import styles from './index.module.css';
 
-const slidesObj = {
-  mystic: {
-    src: '/img/updates/update_test1.jpg',
-    title: 'Мистические Каникулы',
-    href: '/docs/gos',
-  },
-  skills: {
-    src: '/img/updates/update_test2.png',
-    title: 'Фракционные навыки',
-    href: '/docs/mafias',
-  },
-  internet: {
-    src: '/img/updates/update_test3.jpg',
-    title: 'Интернет',
-    href: '/docs/ghetto',
-  },
-};
+const slides = [
+  { src: '/img/updates/update_test1.jpg', href: '/docs/gos',    alt: 'Мистические Каникулы' },
+  { src: '/img/updates/update_test2.png', href: '/docs/mafias', alt: 'Фракционные навыки'   },
+  { src: '/img/updates/update_test3.jpg', href: '/docs/ghetto', alt: 'Интернет'             },
+];
 
 function HomepageHeader() {
   return (
     <header className={styles.heroNoBg}>
-      <HeroCarousel slidesObj={slidesObj} interval={5000} maxWidth={1100} />
+      {/* 4.5 сек автопрокрутка, соотношение кадра 16:9 */}
+      <HeroCarousel slides={slides} autoPlayMs={4500} aspectRatio="16/9" />
     </header>
   );
 }

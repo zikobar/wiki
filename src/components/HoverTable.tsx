@@ -1,40 +1,57 @@
 import React, {useState} from 'react';
+import clsx from 'clsx';
 import styles from './HoverTable.module.css';
 
-type Row = (string | number)[];
+type Align = 'left' | 'center' | 'right';
+
+interface HoverTableProps {
+  headers: React.ReactNode[];
+  rows: React.ReactNode[][];
+  colPercents?: number[];
+  dense?: boolean;
+  headerAlign?: Align;
+  bodyAlign?: Align;
+}
 
 export default function HoverTable({
   headers,
   rows,
+  colPercents,
   dense = false,
-  colPercents, // например: [38, 10, 10, 10, 10, 11, 11]
-}: {
-  headers: string[];
-  rows: Row[];
-  dense?: boolean;
-  colPercents?: number[]; // проценты ширины колонок, должны давать ~100
-}) {
+  headerAlign = 'center',
+  bodyAlign = 'left',
+}: HoverTableProps) {
   const [hoverRow, setHoverRow] = useState<number | null>(null);
   const [hoverCol, setHoverCol] = useState<number | null>(null);
 
+  const clearHover = () => {
+    setHoverRow(null);
+    setHoverCol(null);
+  };
+
   return (
-    <div className={styles.wrap}>
-      <table className={`${styles.table} ${dense ? styles.dense : ''}`}>
-        {/* фиксируем ширину колонок, чтобы таблица влезала */}
-        <colgroup>
-          {(colPercents ?? []).map((p, i) => (
-            <col key={i} style={{width: `${p}%`}} />
-          ))}
-        </colgroup>
+    <div className={styles.wrapper} onMouseLeave={clearHover}>
+      <table className={clsx(styles.table, dense && styles.dense)}>
+        {colPercents && (
+          <colgroup>
+            {colPercents.map((w, i) => (
+              <col key={i} style={{ width: `${w}%` }} />
+            ))}
+          </colgroup>
+        )}
 
         <thead>
           <tr>
-            {headers.map((h, c) => (
+            {headers.map((h, i) => (
               <th
-                key={c}
-                onMouseEnter={() => setHoverCol(c)}
-                onMouseLeave={() => setHoverCol(null)}
-                className={hoverCol === c ? styles.colActive : undefined}
+                key={i}
+                className={clsx(
+                  styles.th,
+                  headerAlign === 'left' && styles.h_left,
+                  headerAlign === 'center' && styles.h_center,
+                  headerAlign === 'right' && styles.h_right,
+                  hoverCol === i && styles.colHover
+                )}
               >
                 {h}
               </th>
@@ -43,27 +60,34 @@ export default function HoverTable({
         </thead>
 
         <tbody>
-          {rows.map((row, r) => (
-            <tr
-              key={r}
-              onMouseEnter={() => setHoverRow(r)}
-              onMouseLeave={() => setHoverRow(null)}
-              className={hoverRow === r ? styles.rowActive : undefined}
-            >
-              {row.map((cell, c) => (
-                <td
-                  key={c}
-                  onMouseEnter={() => setHoverCol(c)}
-                  onMouseLeave={() => setHoverCol(null)}
-                  className={[
-                    hoverCol === c ? styles.colActive : '',
-                    hoverRow === r ? styles.rowActiveCell : '',
-                  ].join(' ')}
-                  title={String(cell)}
-                >
-                  {cell}
-                </td>
-              ))}
+          {rows.map((row, rIdx) => (
+            <tr key={rIdx} className={styles.tr}>
+              {row.map((cell, cIdx) => {
+                const isRow = hoverRow === rIdx;
+                const isCol = hoverCol === cIdx;
+                const isCell = isRow && isCol;
+
+                return (
+                  <td
+                    key={cIdx}
+                    className={clsx(
+                      styles.td,
+                      bodyAlign === 'left' && styles.b_left,
+                      bodyAlign === 'center' && styles.b_center,
+                      bodyAlign === 'right' && styles.b_right,
+                      isRow && styles.rowHover,
+                      isCol && styles.colHover,
+                      isCell && styles.cellHover
+                    )}
+                    onMouseEnter={() => {
+                      setHoverRow(rIdx);
+                      setHoverCol(cIdx);
+                    }}
+                  >
+                    {cell}
+                  </td>
+                );
+              })}
             </tr>
           ))}
         </tbody>

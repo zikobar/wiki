@@ -1,0 +1,28 @@
+[
+   {
+      "faction":"LSPD",
+      "salaries":[
+         {
+            "rank":"zalupa",
+            "salary":1
+         },
+         {
+            "rank":"sperma",
+            "salary":2
+         }
+      ]
+   },
+   {
+      "faction":"EMS",
+      "salaries":[
+         {
+            "rank":"bomzh",
+            "salary":1
+         },
+         {
+            "rank":"bomzh2",
+            "salary":2
+         }
+      ]
+   }
+]

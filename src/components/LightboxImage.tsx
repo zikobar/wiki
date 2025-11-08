@@ -18,7 +18,7 @@ const LightboxImage: React.FC<Props> = ({
   style,
   maxWidthVW = 90,
   maxHeightVH = 90,
-  durationMs = 220,
+  durationMs = 350,
   easing = 'cubic-bezier(.2,.8,.2,1)',
 }) => {
   const [stage, setStage] = useState<Stage>('closed');

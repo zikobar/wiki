@@ -4,6 +4,7 @@ sidebar_position: 2
 ---
 
 import LightboxImage from '@site/src/components/LightboxImage';
+import HoverTable from '@site/src/components/HoverTable';
 
 # San-Andreas National Guard
 
@@ -49,8 +50,6 @@ Battle Riffle
 
     В дневное время при Payday полученная зарплата умножается на 2.
     GOLD VIP аккаунт умножает полученную зарплату на 1.5, при этом данное умножение совмещается с дневным PayDay. (Зарплата x 2 x 1.5)
-
-import HoverTable from '@site/src/components/HoverTable';
 
 <HoverTable
   dense

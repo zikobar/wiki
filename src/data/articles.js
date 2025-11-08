@@ -1,4 +1,3 @@
-// Добавляй сюда свои страницы. content — короткий тизер (2-3 слова/фраза)
 export default [
   {
     title: 'San-Andreas National Guard',

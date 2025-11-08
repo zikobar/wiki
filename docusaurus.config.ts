@@ -89,8 +89,8 @@ const config: Config = {
         },
         {to: '/blog', label: 'залупа', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          href: 'https://gta5rp.com/',
+          label: 'GTA5RP',
           position: 'right',
         },
       ],

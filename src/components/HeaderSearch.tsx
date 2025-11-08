@@ -3,18 +3,15 @@ import React, { useEffect, useMemo, useRef, useState } from 'react';
 type Article = {
   title: string;
   keywords: string[];
-  content: string; // короткий тизер/описание
-  link: string;    // абсолютный путь внутри сайта
+  content: string;
+  link: string;
 };
 
 function escapeRegExp(s: string) {
   return s.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
 
-function Highlight({
-  text,
-  query,
-}: { text: string; query: string }) {
+function Highlight({ text, query }: { text: string; query: string }) {
   if (!query) return <>{text}</>;
   const re = new RegExp(escapeRegExp(query), 'ig');
   const parts = text.split(re);
@@ -41,30 +38,23 @@ export default function HeaderSearch({ articles }: { articles: Article[] }) {
     const q = query.toLowerCase().trim();
     if (!q) return [];
     return articles
-      .filter(a =>
-        [a.title, ...a.keywords].some(f => f.toLowerCase().includes(q))
-      )
-      .slice(0, 8); // максимум 8 результатов
+      .filter(a => [a.title, ...a.keywords].some(f => f.toLowerCase().includes(q)))
+      .slice(0, 8);
   }, [query, articles]);
 
-  // фокус при открытии
   useEffect(() => {
     if (open) setTimeout(() => inputRef.current?.focus(), 0);
   }, [open]);
 
-  // клик вне — закрыть
   useEffect(() => {
     const onDocClick = (e: MouseEvent) => {
       if (!rootRef.current) return;
-      if (!rootRef.current.contains(e.target as Node)) {
-        setOpen(false);
-      }
+      if (!rootRef.current.contains(e.target as Node)) setOpen(false);
     };
     document.addEventListener('mousedown', onDocClick);
     return () => document.removeEventListener('mousedown', onDocClick);
   }, []);
 
-  // хоткеи: "/" — открыть; Esc — закрыть
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
       const tag = (e.target as HTMLElement)?.tagName?.toLowerCase();
@@ -82,7 +72,6 @@ export default function HeaderSearch({ articles }: { articles: Article[] }) {
 
   return (
     <div ref={rootRef} style={{ position: 'relative' }}>
-      {/* Кнопка-лупа */}
       <button
         type="button"
         onClick={() => setOpen(v => !v)}
@@ -101,7 +90,6 @@ export default function HeaderSearch({ articles }: { articles: Article[] }) {
         🔍
       </button>
 
-      {/* Выпадающий блок */}
       {open && (
         <div
           style={{
@@ -148,17 +136,14 @@ export default function HeaderSearch({ articles }: { articles: Article[] }) {
                 results.map((r, i) => (
                   <div
                     key={i}
-                    onClick={() => {
-                      window.location.assign(r.link);
-                    }}
+                    onClick={() => window.location.assign(r.link)}
                     style={{
                       padding: '8px 6px',
                       borderRadius: 6,
                       cursor: 'pointer',
                     }}
                     onMouseEnter={(e) =>
-                      (e.currentTarget.style.background =
-                        'var(--ifm-color-emphasis-200)')
+                      (e.currentTarget.style.background = 'var(--ifm-color-emphasis-200)')
                     }
                     onMouseLeave={(e) =>
                       (e.currentTarget.style.background = 'transparent')
@@ -167,12 +152,7 @@ export default function HeaderSearch({ articles }: { articles: Article[] }) {
                     <div style={{ fontWeight: 600, fontSize: 14 }}>
                       <Highlight text={r.title} query={query} />
                     </div>
-                    <div
-                      style={{
-                        fontSize: 12,
-                        color: 'var(--ifm-color-emphasis-600)',
-                      }}
-                    >
+                    <div style={{ fontSize: 12, color: 'var(--ifm-color-emphasis-600)' }}>
                       <Highlight text={r.content} query={query} />
                     </div>
                   </div>

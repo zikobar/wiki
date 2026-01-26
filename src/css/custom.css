@@ -56,6 +56,7 @@ html {
   scrollbar-gutter: stable both-edges;
 }
 
+<<<<<<< HEAD
 /* Простая плавная анимация при наведении */
 :root {
   --sidebar-transition: 300ms ease;
@@ -71,3 +72,5 @@ html {
     opacity: 0.4 !important;
   }
 }
+=======
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790

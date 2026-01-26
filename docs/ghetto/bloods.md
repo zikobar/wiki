@@ -2,9 +2,12 @@
 title: Bloods Street Gang
 sidebar_position: 2
 ---
+<<<<<<< HEAD
 import LightboxImage from '@site/src/components/LightboxImage';
 import HoverTable from '@site/src/components/HoverTable';
 
+=======
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 # Bloods Street Gang
 
 Bloods Street Gang — Альянс афроамериканских уличных группировок Южного централа, а также пригородов Лос Сантоса, существующий с 1972-го года, произошедший в результате собрания лидеров банд, недовольных нападениями со стороны Crips в единую «Семью». Они решили носить противоположенный цвет - красный, и начали объединяться в организацию, которая позже стала известна как Bloods, в состав которой входили группировки Pirus, Brims, Athens Park Boys и Pueblos. Позже, и другие банды, которых атаковали Crips, присоединялись к Bloods. Опознавательный цвет банды — кроваво красный. 
@@ -12,6 +15,7 @@ Bloods Street Gang — Альянс афроамериканских уличн�
 ## Территория
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/bloods/bloods1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/bloods/bloods2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/bloods/bloods3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
@@ -20,6 +24,16 @@ Bloods Street Gang — Альянс афроамериканских уличн�
   <LightboxImage src="/img/bloods/bloods6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/bloods/bloods7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/bloods/bloods8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+=======
+  <img src="/img/bloods/bloods1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/bloods/bloods8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
 
 ## Транспорт

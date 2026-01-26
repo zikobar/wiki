@@ -2,8 +2,11 @@
 title: Банды
 sidebar_position: 0
 ---
+<<<<<<< HEAD
 import LightboxImage from '@site/src/components/LightboxImage';
 import HoverTable from '@site/src/components/HoverTable';
+=======
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 
 # Банды
 
@@ -57,9 +60,15 @@ Micro SMG
 Во вкладке "история" доступна история всех каптов банд с результатами за текущий день. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/ghetto/capt1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
   <LightboxImage src="/img/ghetto/capt2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
   <LightboxImage src="/img/ghetto/capt3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+=======
+  <img src="/img/ghetto/capt1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/ghetto/capt2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/ghetto/capt3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
 
 >
@@ -73,8 +82,13 @@ Micro SMG
 Все выпавшее оружие, патроны будут автоматически перемещены на склад выигравшей фракции по окончанию мероприятия. 
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/ghetto/capt4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/ghetto/capt5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+=======
+  <img src="/img/ghetto/capt4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ghetto/capt5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
 
 ## Ограбления домов
@@ -83,8 +97,13 @@ Micro SMG
 >Задание на ограбление дома берется у NPC "Коварный Джейкоб" в специальном месте "Ограбления".
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/ghetto/grabit.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/ghetto/npc_grabit.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+=======
+  <img src="/img/ghetto/grabit.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ghetto/npc_grabit.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
  
 > ### Принцип
@@ -94,10 +113,17 @@ Micro SMG
 В доме необходимо взять вещи на красных метках, загрузить в багажник автомобиля, подойдя к нему и нажав на кнопку G и отвезти на место разгрузки в первоначальной точке.  
 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/ghetto/sms.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/ghetto/dom.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/ghetto/metki.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
   <LightboxImage src="/img/ghetto/ograbil.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+=======
+  <img src="/img/ghetto/sms.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ghetto/dom.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ghetto/metki.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <img src="/img/ghetto/ograbil.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
 
 ## Война за граффити
@@ -111,9 +137,15 @@ Micro SMG
 >За успешную закраску граффити выдается 500$ на руки, но не чаще, чем раз в 5 минут.
 Война за граффити происходит в последние 15 минут каждые 2 часа с момента рестарта сервера. (Пример: с 10:45 до 11:00). С правилами войны за граффити Вы можете ознакомиться в разделе правил Вашего сервера. 
 <div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+<<<<<<< HEAD
   <LightboxImage src="/img/ghetto/karta_graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
   <LightboxImage src="/img/ghetto/247_graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
   <LightboxImage src="/img/ghetto/graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+=======
+  <img src="/img/ghetto/karta_graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/ghetto/247_graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <img src="/img/ghetto/graffiti.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 </div>
 
 ## Ограбления магазинов Ammu-Nation

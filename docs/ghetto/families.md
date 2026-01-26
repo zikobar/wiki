@@ -2,9 +2,12 @@
 title: West Side Families
 sidebar_position: 3
 ---
+<<<<<<< HEAD
 import LightboxImage from '@site/src/components/LightboxImage';
 import HoverTable from '@site/src/components/HoverTable';
 
+=======
+>>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
 # West Side Families
 
 The Families — афроамериканская банда города Лос Сантос. Банда занимает всю территорию районов Чемберлен-Хиллз, Строберри и часть арены Maze Bank. У Families идёт ожесточённое соперничество с соседствующей бандой Баллас, а также с бандой на юго-востоке Ранчо под названием Вагос. Базируется на территориях ранее известной группировки Groove Street. Основным цветом банды принято считать зеленый. 

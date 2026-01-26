@@ -1,0 +1,61 @@
+---
+title: Японская мафия
+sidebar_position: 5
+---
+
+import LightboxImage from '@site/src/components/LightboxImage';
+
+# Японская мафия
+
+Яку́дза - традиционная форма организованной преступности в Японии, группировки которой занимают лидирующее положение в криминальном мире страны. Якудза контролируют каналы поставки наркотиков, местами активности якудза в Америке являются японские кварталы в таких городах как Лос-Сантос и Либерти-Сити. 
+
+Главной фигурой в иерархии якудза является оябун («шеф») или кумитё («старший начальник», «верховный босс»). В его непосредственном подчинении находятся сайко-комон или камбу-ацукай («администратор» или «старший советник»), санро-кай («группа старших советников»), со-хомбутё («руководитель штаба») и главы основных низовых подразделений — вакагасира («старший лейтенант» или «региональный босс», стоящий над несколькими бригадами гангстеров одного региона) и сятэйгасира («младший лейтенант»)
+
+## Территория
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <LightboxImage src="/img/yak/yak_1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/yak/yak_8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
+
+## Клуб
+
+Клуб Oriental — гордость Якудзы, сочетающая роскошь и дисциплину восточной традиции. За безупречным сервисом и изысканным интерьером скрывается железная структура, где уважение и страх идут рука об руку, а любое нарушение равновесия карается мгновенно.
+
+<!--- Добавить кликабельную ссылку на клуб Galaxy --->
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <LightboxImage src="/img/yak/oriental_1.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_2.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+  <LightboxImage src="/img/yak/oriental_3.png" style={{ flexBasis: '45%', maxWidth: '30%' }} />
+</div>
+
+## Транспорт
+
+Фракционный транспорт может быть заменен при написании RP-ситуации на форуме, которую одобряет Главный Администратор сервера.
+Ниже приведены примеры стандартного транспорта фракции.
+
+exemplar baller4 felon fugitive kuruma cognoscenti burrito3
+
+## Должности
+
+Название рангов меняются на усмотрение лидера фракции при одобрении куратора, ниже приведены стандартные названия рангов.
+| Ранг | Звание |
+|:------------------------:|:------------------------:|
+| 1 | Kobun |
+| 2 | Kaikei |
+| 3 | Shingiin |
+| 4 | Shatei |
+| 5 | Kyodai |
+| 6 | Shateigashira |
+| 7 | Wakagashira |
+| 8 | Sohonbucho |
+| 9 | Sanrokai |
+| 10 | Saikokomon |
+| 11 | Kumicho |

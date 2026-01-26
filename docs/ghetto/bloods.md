@@ -1,0 +1,46 @@
+---
+title: Bloods Street Gang
+sidebar_position: 2
+---
+import LightboxImage from '@site/src/components/LightboxImage';
+import HoverTable from '@site/src/components/HoverTable';
+
+# Bloods Street Gang
+
+Bloods Street Gang — Альянс афроамериканских уличных группировок Южного централа, а также пригородов Лос Сантоса, существующий с 1972-го года, произошедший в результате собрания лидеров банд, недовольных нападениями со стороны Crips в единую «Семью». Они решили носить противоположенный цвет - красный, и начали объединяться в организацию, которая позже стала известна как Bloods, в состав которой входили группировки Pirus, Brims, Athens Park Boys и Pueblos. Позже, и другие банды, которых атаковали Crips, присоединялись к Bloods. Опознавательный цвет банды — кроваво красный. 
+
+## Территория
+
+<div style={{ display: 'flex', justifyContent: 'center', gap: '10px', flexWrap: 'wrap' }}>
+  <LightboxImage src="/img/bloods/bloods1.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods2.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods3.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods4.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods5.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods6.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods7.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+  <LightboxImage src="/img/bloods/bloods8.png" style={{ flexBasis: '45%', maxWidth: '45%' }} />
+</div>
+
+## Транспорт
+
+Фракционный транспорт может быть заменен при написании RP-ситуации на форуме, которую одобряет Главный Администратор сервера.
+Ниже приведены примеры стандартного транспорта фракции.
+
+bmx impaler faction bucaneer2 primo2 burrito3
+
+## Должности
+
+Название рангов меняются на усмотрение лидера фракции при одобрении куратора, ниже приведены стандартные названия рангов.
+| Ранг | Звание |
+|:------------------------:|:------------------------:|
+| 1 | Settler |
+| 2 | Young Gangster |
+| 3 | Gangster |
+| 4 | Thug Gangsta |
+| 5 | Ghetto Soldier |
+| 6 | Cutthroat |
+| 7 | Loc Killa |
+| 8 | Blood Mentor |
+| 9 | Advisor |
+| 10 | East Side Pac |

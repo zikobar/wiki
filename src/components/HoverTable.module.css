@@ -1,0 +1,74 @@
+.wrapper {
+  overflow-x: auto;
+}
+
+:root {
+  /* фон ячеек — чуть светлее фона темы */
+  --tbl-bg: color-mix(in oklab, var(--ifm-background-color) 100%, white 2%);
+  /* мягкая подсветка строки/столбца */
+  --tbl-hover: color-mix(in oklab, var(--ifm-background-color) 82%, white 14%);
+  /* пересечение строки и столбца */
+  --tbl-hover-strong: color-mix(in oklab, var(--ifm-background-color) 78%, white 20%);
+  --tbl-border: var(--ifm-color-emphasis-300);
+}
+
+.table {
+  width: 100%;
+  table-layout: fixed;
+  border-collapse: separate;
+  border-spacing: 0;
+  background: var(--tbl-bg);
+  border: 1px solid var(--tbl-border);
+  border-radius: 10px;
+}
+
+/* единый фон без «зебры» */
+.th,
+.td {
+  background: var(--tbl-bg);
+}
+
+.th,
+.td {
+  padding: 12px 14px;
+  border-bottom: 1px solid var(--tbl-border);
+  border-right: 1px solid var(--tbl-border);
+  vertical-align: middle;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
+}
+
+tr > .td:last-child,
+thead tr > .th:last-child {
+  border-right: none;
+}
+
+.th {
+  font-weight: 600;
+  background: color-mix(in oklab, var(--tbl-bg) 86%, black 6%);
+}
+
+.h_left   { text-align: left; }
+.h_center { text-align: center; }
+.h_right  { text-align: right; }
+
+.b_left   { text-align: left; }
+.b_center { text-align: center; }
+.b_right  { text-align: right; }
+
+/* подсветки */
+.rowHover { background: var(--tbl-hover) !important; }
+.colHover { background: var(--tbl-hover) !important; }
+.cellHover { background: var(--tbl-hover-strong) !important; }
+
+.dense .th,
+.dense .td {
+  padding: 8px 10px;
+}
+/* общие переходы для всех ячеек */
+.table :where(th, td) {
+  transition:
+    background-color 240ms cubic-bezier(.2,.8,.2,1),
+    color            240ms ease;
+}

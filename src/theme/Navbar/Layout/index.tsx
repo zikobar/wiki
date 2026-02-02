@@ -55,7 +55,4 @@ export default function NavbarLayout({children}: Props): ReactNode {
     </nav>
   );
 }
-<<<<<<< HEAD
 
-=======
->>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790

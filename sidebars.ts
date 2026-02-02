@@ -31,7 +31,4 @@ const sidebars: SidebarsConfig = {
 };
 
 export default sidebars;
-<<<<<<< HEAD
 
-=======
->>>>>>> 925b9fbe74727f1a53bd0420ef8037c613ebc790
